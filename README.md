@@ -3,7 +3,8 @@
 It is a gazebo model of a two wheeled bot equipped with camera and laser sensor. It operates with differential drive plugin.
 
 roslaunch two_wheeled_bot rviz.launch 
-rosrun gazebo_ros gazebo 
+
+*rosrun gazebo_ros gazebo *
 roslaunch two_wheeled_bot spawn.launch 
 
 rostopic list :
